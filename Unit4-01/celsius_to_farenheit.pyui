@@ -1,0 +1,89 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 94}, {320, 51}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "instruction_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "36F5D184-B518-4C66-B260-6D8499C8018F",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Input a temperature in Celsius to convert it to Fahrenheit:",
+          "font_size" : 16,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{55, 153}, {210, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "",
+          "name" : "input_textfield",
+          "secure" : false,
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "62B4D88A-5202-4218-99F2-0A9BB809C0D1",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_size" : 14,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 228}, {273, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "conversion_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "5FA7A16E-11A2-4A38-B519-AAE15E063E97",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 14,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{121, 193}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "FDA5B4D3-B6EC-44DD-971A-9612BCCDD30F",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "title" : "Calculate",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 14
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
